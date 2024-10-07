@@ -31,3 +31,6 @@ This project aims to classify BBC News articles into five categories using machi
   
 # Conclusion 
 All classifiers performed exceptionally well, with Random Forest and SVM showing enhanced accuracy with TF-IDF, while Naïve Bayes excelled with Bag of Words. Feature extraction techniques played a significant role, as TF-IDF improved predictive capacity by emphasizing unique terms, whereas Bag of Words simplified the process. In summary, the combination of these models and feature extraction methods led to robust and highly accurate classification models, achieving accuracies over 96%.
+
+# Contact
+For any questions or inquiries, please contact evitanegara@gmail.com
