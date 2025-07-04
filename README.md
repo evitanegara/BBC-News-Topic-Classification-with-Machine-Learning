@@ -62,7 +62,7 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
 </p>
 
 ## Highlights
-- SVM with TF-IDF delivered the highest accuracy (97.75%), excelling in precision and recall across all five categories—especially effective in distinguishing semantically close classes like business and tech.
+- SVM with TF-IDF delivered the highest accuracy (97.75%), excelling in precision and recall across all five categories, especially effective in distinguishing semantically close classes like business and tech.
 - Naïve Bayes with Bag-of-Words achieved a matching accuracy (97.75%) despite its simplicity, showcasing strong generalization and high recall on the politics and entertainment categories.
 - Random Forest with TF-IDF maintained robust performance (97.46%) with a strong balance of interpretability and accuracy, particularly excelling in sport and business classifications.
 - Sport category was most consistently predicted correctly across all models, indicating strong signal clarity and distinguishable vocabulary patterns.
