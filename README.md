@@ -8,7 +8,6 @@ This project focuses on the application of Natural Language Processing (NLP) and
 - Source: [Kaggle - BBC Full Text Document Classification](https://www.kaggle.com/datasets)
 - Total Records: 2,225 news articles
 - Categories: Business, Entertainment, Politics, Sport, Tech
-- The dataset is well-balanced, supporting fair model evaluation across all classes without the need for oversampling or downsampling.
 
 | Category      | Document Count |
 |---------------|----------------|
@@ -21,30 +20,7 @@ This project focuses on the application of Natural Language Processing (NLP) and
 ## Executive Summary
 This project demonstrates how NLP preprocessing and machine learning modeling can be used to automate the classification of news articles. The models were trained on 70% of the dataset and evaluated on the remaining 30%, using two different vectorization techniques. SVM with TF-IDF vectorization achieved the highest accuracy at 97.75%. Naïve Bayes using Bag-of-Words also reached 97.75%, showing strong performance even with simpler feature inputs. Random Forest with TF-IDF followed closely at 97.46%, offering a balance between accuracy and interpretability. Across all models, articles in the sport and business categories were identified with the highest precision. Categories such as entertainment and tech presented minor classification challenges due to overlapping vocabulary and contextual similarities.
 
-# Project Overview : 
-This project aims to classify BBC News articles into five categories using machine learning. Key steps include:
-- **Data Import and Library Setup**:
-  - Utilized libraries such as NumPy, scikit-learn, pandas, and NLTK for text processing.
-  - Downloaded NLTK resources like Stopwords and WordNet to aid in text preprocessing.
-- **Check Distribution of Data**: Examined the distribution of the five news categories: "sport" (511 documents), "business" (510 documents), "politics" (417 documents), "tech" (401 documents), and "entertainment" (386 documents).
-- **Pre-Processing** : 
-  - Lowercasing: Converted all text to lowercase to ensure consistency and reduce vocabulary size, improving the effectiveness of topic labelling.
-  - Lemmatization: Applied WordNet Lemmatizer to convert words into their base form, removing inflectional endings.
-  - Stop-word Removal: Eliminated common stop-words (e.g., articles, pronouns) to focus on meaningful words and reduce the dimensionality of the data.
-    ![image](https://github.com/user-attachments/assets/8f0e8c95-3b6c-4c8d-b7fb-850f9531c6e6)
-
-- **Train-Test Split**: Split the dataset into 70% training and 30% testing using the train_test_split function.
-- **Feature Extraction**: Used TF-IDF to assess word relevance and Bag of Words to count word occurrences, both techniques aiding in topic classification.
-- **Modeling and Predictions**:
-  - Applied Naïve Bayes, Random Forest, and SVM for topic labelling.
-  - Random Forest was chosen for its adaptability, SVM for its effectiveness in high-dimensional data, and Naïve Bayes for its simplicity and efficiency.
-- **Evaluation**: Assessed the performance of the models using confusion matrices, accuracy, precision, recall, and F1-score metrics.
-- **Project result** 
-  - Random Forest: Achieved 97.46% accuracy with TF-IDF, and 96.56% with Bag of Words.
-  - SVM: Reached 97.75% accuracy using TF-IDF, and 96.26% with Bag of Words.
-  - Naïve Bayes: BoW model achieved 97.75% accuracy, while TF-IDF reached 96.71%.
-
-## ⚙Project Workflow
+## Project Workflow
 
 ### Data Import and Library Setup
 - Imported core libraries: pandas, numpy, scikit-learn, seaborn, matplotlib, and NLTK
@@ -55,7 +31,8 @@ This project aims to classify BBC News articles into five categories using machi
 - Tokenization and Lemmatization: Split text into tokens and converted each to its root form using WordNet
 - Stopword Removal: Removed common, non-informative words such as "the", "is", etc.
 - This preprocessing pipeline reduced dimensionality and emphasized meaningful terms for vectorization
-- 
+  ![image](https://github.com/user-attachments/assets/b05289bc-f502-4e0f-a455-bda57f7f2555)
+
 ### Train-Test Split
 - Used `train_test_split` to divide the dataset into 70% training and 30% testing subsets
   
@@ -80,29 +57,21 @@ This project aims to classify BBC News articles into five categories using machi
 ![image](https://github.com/user-attachments/assets/8b5e4168-db2a-428c-a802-3874baa377e5)
 
 
-## 🔍 Highlights
+## Highlights
 
-- SVM with TF-IDF delivered top accuracy and precision across all categories
-- Naïve Bayes with Bag-of-Words achieved matching accuracy using a simpler feature representation
-- Random Forest with TF-IDF maintained strong consistency and interpretability
-- All models performed best on the sport category, and weakest on tech due to semantic overlap in vocabulary
+- SVM with TF-IDF delivered the highest accuracy (97.75%), excelling in precision and recall across all five categories—especially effective in distinguishing semantically close classes like business and tech.
+- Naïve Bayes with Bag-of-Words achieved a matching accuracy (97.75%) despite its simplicity, showcasing strong generalization and high recall on the politics and entertainment categories.
+- Random Forest with TF-IDF maintained robust performance (97.46%) with a strong balance of interpretability and accuracy, particularly excelling in sport and business classifications.
+- Sport category was most consistently predicted correctly across all models, indicating strong signal clarity and distinguishable vocabulary patterns.
+- Tech category posed the most challenges, often confused with business due to shared terminology and overlapping content themes.
 
 ---
 
 ## Key Takeaways
-
-- Preprocessing matters  
-  Token normalization and stopword removal significantly improved feature quality
-
-- TF-IDF excels in precision  
-  Especially effective for distinguishing categories with similar vocabulary patterns
-
-- Model synergy  
-  Each algorithm performed best when paired with suitable feature types (SVM with TF-IDF, Naïve Bayes with BoW)
-
-- No resampling needed  
-  Balanced class distribution enabled fair and unbiased model evaluation
-
+- Model-Feature Synergy Matters: SVM paired best with TF-IDF, while Naïve Bayes performed best with BoW—highlighting the importance of aligning model type with feature representation.
+- TF-IDF Improves Precision: Particularly effective in filtering out common terms and amplifying discriminative features for nuanced topics.
+- No Resampling Required: Balanced class distribution allowed for fair comparison without needing under/over-sampling methods.
+- Preprocessing Drives Performance: Lemmatization, lowercasing, and stopword removal significantly reduced noise and improved classification clarity.
 ---
 
 # Contact
