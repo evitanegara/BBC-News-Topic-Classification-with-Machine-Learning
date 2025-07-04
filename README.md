@@ -1,4 +1,4 @@
-
+# Topic Classification of BBC News Articles Using Machine Learning
 ## Project Overview
 This project focuses on the application of Natural Language Processing (NLP) and supervised machine learning to automate topic classification of BBC news articles. In the context of digital journalism and growing information overload, automated topic labelling helps streamline news delivery systems, improve content recommendations, and facilitate large-scale media analysis. Using a labeled dataset of over 2,200 articles from BBC News, this study evaluates three core classifiers: Naïve Bayes, Random Forest, and Support Vector Machine (SVM), tested with two feature extraction techniques: TF-IDF and Bag of Words (BoW). Each model is assessed through confusion matrices and classification reports (precision, recall, f1-score, accuracy), with performance visualized to compare classification strength across topics such as business, entertainment, politics, sport, and tech.
 
