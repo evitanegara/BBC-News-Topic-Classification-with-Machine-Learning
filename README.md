@@ -52,13 +52,13 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
 - Plotted confusion matrices for both BoW and TF-IDF to visually compare classification performance across categories
 
  <p align="center">
-  <img src="https://github.com/user-attachments/assets/e002ecab-8866-47ce-9d7b-c6f9a21818bf" alt="Forecasting" width="500"/>
+  <img src="https://github.com/user-attachments/assets/e002ecab-8866-47ce-9d7b-c6f9a21818bf" alt="Forecasting" width="700"/>
 </p>
  <p align="center">
-  <img src="https://github.com/user-attachments/assets/2f52f776-a10a-4767-b59b-cd2370b88c88" alt="Forecasting" width="500"/>
+  <img src="https://github.com/user-attachments/assets/2f52f776-a10a-4767-b59b-cd2370b88c88" alt="Forecasting" width="700"/>
 </p>
  <p align="center">
-  <img src="https://github.com/user-attachments/assets/a1bb5594-dabb-4f4f-8928-2fbe9b5a8f02" alt="Forecasting" width="500"/>
+  <img src="https://github.com/user-attachments/assets/a1bb5594-dabb-4f4f-8928-2fbe9b5a8f02" alt="Forecasting" width="700"/>
 </p>
 
 ## Highlights
