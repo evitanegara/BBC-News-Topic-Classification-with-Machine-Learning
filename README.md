@@ -48,8 +48,9 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
 ### Model Evaluation
 - Evaluation metrics included: Accuracy, Precision, Recall, F1-Score, and Confusion Matrix
 - Plotted confusion matrices for both BoW and TF-IDF to visually compare classification performance across categories
-  
-
+![image](https://github.com/user-attachments/assets/e002ecab-8866-47ce-9d7b-c6f9a21818bf)
+![image](https://github.com/user-attachments/assets/2f52f776-a10a-4767-b59b-cd2370b88c88)
+![image](https://github.com/user-attachments/assets/a1bb5594-dabb-4f4f-8928-2fbe9b5a8f02)
 
 ## Highlights
 
@@ -59,14 +60,11 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
 - Sport category was most consistently predicted correctly across all models, indicating strong signal clarity and distinguishable vocabulary patterns.
 - Tech category posed the most challenges, often confused with business due to shared terminology and overlapping content themes.
 
----
-
 ## Key Takeaways
 - Model-Feature Synergy Matters: SVM paired best with TF-IDF, while Naïve Bayes performed best with BoW—highlighting the importance of aligning model type with feature representation.
 - TF-IDF Improves Precision: Particularly effective in filtering out common terms and amplifying discriminative features for nuanced topics.
 - No Resampling Required: Balanced class distribution allowed for fair comparison without needing under/over-sampling methods.
 - Preprocessing Drives Performance: Lemmatization, lowercasing, and stopword removal significantly reduced noise and improved classification clarity.
----
 
 # Contact
 For any questions or inquiries, please contact evitanegara@gmail.com
