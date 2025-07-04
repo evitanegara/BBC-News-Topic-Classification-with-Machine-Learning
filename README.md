@@ -48,12 +48,7 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
 ### Model Evaluation
 - Evaluation metrics included: Accuracy, Precision, Recall, F1-Score, and Confusion Matrix
 - Plotted confusion matrices for both BoW and TF-IDF to visually compare classification performance across categories
-![image](https://github.com/user-attachments/assets/4eda7247-c24a-423e-bffa-689605d6f153)
-![image](https://github.com/user-attachments/assets/f7ff7356-56c1-4c3a-a2b2-22924edb3b6a)
-![image](https://github.com/user-attachments/assets/88edf0aa-d8f2-4243-9984-e22cdd3d1cb6)
-![image](https://github.com/user-attachments/assets/72883496-93cd-49ad-bec9-4368bd8d7ed6)
-![image](https://github.com/user-attachments/assets/51996b39-c13d-4953-9eb2-2ef1342b81e0)
-![image](https://github.com/user-attachments/assets/8b5e4168-db2a-428c-a802-3874baa377e5)
+  
 
 
 ## Highlights
