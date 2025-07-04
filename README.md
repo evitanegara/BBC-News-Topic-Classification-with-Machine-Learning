@@ -30,10 +30,12 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
 - Tokenization and Lemmatization: Split text into tokens and converted each to its root form using WordNet
 - Stopword Removal: Removed common, non-informative words such as "the", "is", etc.
 - This preprocessing pipeline reduced dimensionality and emphasized meaningful terms for vectorization
-  ![image](https://github.com/user-attachments/assets/b05289bc-f502-4e0f-a455-bda57f7f2555)
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/b05289bc-f502-4e0f-a455-bda57f7f2555" alt="Forecasting" width="500"/>
+</p>
 
 ### Train-Test Split
-- Used `train_test_split` to divide the dataset into 70% training and 30% testing subsets
+- Used train_test_split to divide the dataset into 70% training and 30% testing subsets
   
 ### Feature Extraction
 - Applied two vectorization techniques: TF-IDF: Weighed words by term frequency and inverse document frequency to highlight discriminative features
@@ -48,12 +50,23 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
 ### Model Evaluation
 - Evaluation metrics included: Accuracy, Precision, Recall, F1-Score, and Confusion Matrix
 - Plotted confusion matrices for both BoW and TF-IDF to visually compare classification performance across categories
+
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/e002ecab-8866-47ce-9d7b-c6f9a21818bf" alt="Forecasting" width="500"/>
+</p>
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/2f52f776-a10a-4767-b59b-cd2370b88c88" alt="Forecasting" width="500"/>
+</p>
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/a1bb5594-dabb-4f4f-8928-2fbe9b5a8f02" alt="Forecasting" width="500"/>
+</p>
+
+
 ![image](https://github.com/user-attachments/assets/e002ecab-8866-47ce-9d7b-c6f9a21818bf)
 ![image](https://github.com/user-attachments/assets/2f52f776-a10a-4767-b59b-cd2370b88c88)
 ![image](https://github.com/user-attachments/assets/a1bb5594-dabb-4f4f-8928-2fbe9b5a8f02)
 
 ## Highlights
-
 - SVM with TF-IDF delivered the highest accuracy (97.75%), excelling in precision and recall across all five categories—especially effective in distinguishing semantically close classes like business and tech.
 - Naïve Bayes with Bag-of-Words achieved a matching accuracy (97.75%) despite its simplicity, showcasing strong generalization and high recall on the politics and entertainment categories.
 - Random Forest with TF-IDF maintained robust performance (97.46%) with a strong balance of interpretability and accuracy, particularly excelling in sport and business classifications.
