@@ -61,11 +61,6 @@ This project demonstrates how NLP preprocessing and machine learning modeling ca
   <img src="https://github.com/user-attachments/assets/a1bb5594-dabb-4f4f-8928-2fbe9b5a8f02" alt="Forecasting" width="500"/>
 </p>
 
-
-![image](https://github.com/user-attachments/assets/e002ecab-8866-47ce-9d7b-c6f9a21818bf)
-![image](https://github.com/user-attachments/assets/2f52f776-a10a-4767-b59b-cd2370b88c88)
-![image](https://github.com/user-attachments/assets/a1bb5594-dabb-4f4f-8928-2fbe9b5a8f02)
-
 ## Highlights
 - SVM with TF-IDF delivered the highest accuracy (97.75%), excelling in precision and recall across all five categories—especially effective in distinguishing semantically close classes like business and tech.
 - Naïve Bayes with Bag-of-Words achieved a matching accuracy (97.75%) despite its simplicity, showcasing strong generalization and high recall on the politics and entertainment categories.
